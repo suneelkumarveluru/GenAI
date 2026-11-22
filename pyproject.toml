@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-roi"
+version = "0.1.0"
+description = "Implement an agentic AI use case and prove its ROI: governed agent loop, evaluation harness, ROI model"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []  # standard library only
+
+[project.optional-dependencies]
+snowflake = ["snowflake-connector-python>=3.12"]
+
+[project.scripts]
+agentic-roi = "agentic_roi.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
