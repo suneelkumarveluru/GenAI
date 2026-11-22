@@ -1,0 +1,23 @@
+{
+  "name": "Customer support triage and resolution agent",
+  "description": "Agent resolves routine tickets (refunds under a limit, order status, how-to) and escalates the rest.",
+  "tasks_per_month": 12000,
+  "minutes_per_task_manual": 9,
+  "loaded_hourly_cost": 45,
+  "automation_rate": 0.55,
+  "assist_rate": 0.25,
+  "assist_time_saving": 0.4,
+  "error_rate_manual": 0.05,
+  "error_rate_agent": 0.04,
+  "cost_per_error": 20,
+  "rework_minutes": 10,
+  "llm_cost_per_task": 0.06,
+  "infra_cost_per_month": 3000,
+  "maintenance_fte": 0.5,
+  "fte_annual_cost": 150000,
+  "build_cost": 180000,
+  "ramp_months": 6,
+  "horizon_months": 36,
+  "discount_rate_annual": 0.10,
+  "other_monthly_benefit": 0
+}
