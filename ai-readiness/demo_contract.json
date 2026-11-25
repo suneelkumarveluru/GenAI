@@ -1,0 +1,18 @@
+{
+  "dataset": "retail_orders",
+  "version": "1.0.0",
+  "schema": ["order_id", "line_id", "amount", "status", "channel", "country", "note"],
+  "allow_extra_columns": false,
+  "required": ["order_id", "line_id", "status", "channel", "country"],
+  "composite_keys": [["order_id", "line_id"]],
+  "numeric": {"amount": {"min": 0, "max": 100000}},
+  "allowed_values": {
+    "status": ["OPEN", "PAID", "CANCELLED"],
+    "channel": ["WEB", "STORE"],
+    "country": ["US", "CA"]
+  },
+  "max_null_fraction": {"note": 0.5},
+  "min_rows": 4,
+  "histograms": {"amount": [50, 100, 500]},
+  "drift": {"max_row_change": 0.25, "max_distribution_distance": 0.4}
+}
