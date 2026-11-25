@@ -37,6 +37,16 @@ See [full documentation](docs/LOCAL_SEARCH.md) for behavior, limitations, and ex
 | `docs/LOCAL_SEARCH.md` | Setup and technical notes |
 | `.github/workflows/python-tests.yml` | Tests on pushes and pull requests |
 
+## Enterprise AI data readiness
+
+The [AI Data Readiness & Observability framework](ai-readiness/README.md) adds versioned data contracts, schema and key checks, distribution drift detection, SQLite audit history, and an offline HTML dashboard. It includes synthetic retail-order scenarios, a Snowflake SQL example, and deployment guidance.
+
+```bash
+cd ai-readiness
+python demo.py demo-output
+python -m unittest discover -v
+```
+
 ## Contributing
 
 Open an issue for a bug or feature proposal and submit a focused pull request with tests. Do not commit real company data, API tokens, or private documents.
