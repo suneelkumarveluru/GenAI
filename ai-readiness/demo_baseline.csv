@@ -1,0 +1,7 @@
+order_id,line_id,amount,status,channel,country,note
+A100,1,30,PAID,WEB,US,standard
+A100,2,80,PAID,WEB,US,
+A101,1,125,OPEN,STORE,CA,deliver
+A102,1,230,PAID,STORE,US,standard
+A103,1,540,CANCELLED,WEB,CA,returned
+A104,1,45,OPEN,STORE,US,
