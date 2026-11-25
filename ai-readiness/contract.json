@@ -1,0 +1,16 @@
+{
+  "required": [
+    "id",
+    "amount"
+  ],
+  "unique": [
+    "id"
+  ],
+  "numeric": {
+    "amount": {
+      "min": 0,
+      "max": 1000000
+    }
+  },
+  "min_rows": 1
+}
