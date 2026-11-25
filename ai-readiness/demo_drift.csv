@@ -1,0 +1,7 @@
+order_id,line_id,amount,status,channel,country,note
+B100,1,700,PAID,WEB,US,standard
+B101,1,750,PAID,WEB,US,standard
+B102,1,800,PAID,WEB,US,standard
+B103,1,900,PAID,WEB,US,standard
+B104,1,1000,PAID,WEB,US,standard
+B105,1,1200,PAID,WEB,US,standard

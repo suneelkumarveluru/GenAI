@@ -1,0 +1,5 @@
+order_id,line_id,amount,status,channel,country,note
+C100,1,-12,PAID,WEB,US,
+C100,1,45,UNKNOWN,WEB,US,
+C101,1,nan,OPEN,STORE,CA,
+C102,1,100,PAID,STORE,US,standard
